@@ -13,9 +13,11 @@ $strings = array(
 	7 => 'To be or not to be?',
 );
 
+
+
+
 require_once __DIR__ . '/../autoload.php';
 $sentiment = new \PHPInsight\Sentiment();
-
 foreach ($strings as $string) {
 
 	// calculations:
